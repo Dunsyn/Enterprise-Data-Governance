@@ -1,10 +1,10 @@
-Enterprise Data Governance — Power BI Report
+#Enterprise Data Governance — Power BI Report
 
-**Introduction**
+#**Introduction**
 This project presents an **Enterprise Data Governance Analysis Dashboard** built in Power BI to evaluate data quality, governance maturity, compliance risk, and financial exposure across a multi-domain organisation.
 The objective is to move beyond descriptive analytics and enable **data trust and governance-driven decision-making**.
 
-## **Key Features**
+# **Key Features**
 * Dynamic KPI selection using **Field Parameters**
 * Data Quality framework (Accuracy, Completeness, Consistency, Duplicate Rate)
 * Governance metrics (Audit findings, compliance status, open issues)
@@ -16,13 +16,13 @@ The objective is to move beyond descriptive analytics and enable **data trust an
   * Data Quality
   * Risk & Compliance
 
-**Project Objective**: To assess how effectively data is governed across the enterprise and identify:
+#**Project Objective**: To assess how effectively data is governed across the enterprise and identify:
 * High-risk data assets
 * Governance gaps
 * Financial exposure from non-compliance
 * Areas requiring immediate remediation
 
-**Data Overview**
+#**Data Overview**
 * ~5,500 Data records
 * Multiple business domains (Finance, HR, IT, Marketing, Operations)
 * Attributes include:
@@ -33,7 +33,7 @@ The objective is to move beyond descriptive analytics and enable **data trust an
   * Access Levels
   * Financial Exposure
 
-**Methodology**
+#**Methodology**
 1. **Data Preparation**
    * Cleaned and structured governance dataset
    * Created calculated columns and measures in DAX
@@ -48,7 +48,7 @@ The objective is to move beyond descriptive analytics and enable **data trust an
    * Built executive dashboards using Power BI
    * Applied conditional formatting and dynamic visuals
 
-**Key Insights**
+#**Key Insights**
 1. The compliance crisis is structural, not tactical. At 88.8% non-compliant or at risk, this is a governance programme maturity problem — not a data quality problem. Tactical fixes will not move this number. The organisation needs foundational governance capability built from the ground up.
 2. HR is the immediate regulatory priority: HR has the highest estimated fine exposure (€491M), the most non-compliant fields (542, 56.3%), the most GDPR-relevant fields (544), and the most open issues (4,698). A regulator's first port of call.
 3. 771 fields are an Article 25 violation right now — before any breach. GDPR Article 25 (Data Protection by Design and Default) requires access to personal data be restricted to what is strictly necessary. 771 GDPR-relevant fields with Admin or Write access and no documented justification represent active violations independent of whether a breach has occurred.
@@ -56,14 +56,14 @@ The objective is to move beyond descriptive analytics and enable **data trust an
 5. Stewardship concentration is a hidden risk: 1,836 fields (33.4% of the estate) are assigned to a generic "Data Gov Team" rather than a named individual. Of those, 568 are Non-Compliant. Collective ownership means zero individual accountability.
 6. 372 days average audit delay highlights weak governance monitoring and the €1.78B fine figure needs a health warning: Regulators fine per incident, not per database column. This figure is a relative risk proxy — useful for prioritisation, not as a financial forecast. Always caveat before presenting to a board.
 
-**Key Recommendations**
+#**Key Recommendations**
 1. Strengthen access controls for sensitive data
 2. Reduce audit lag and enforce governance cycles
 3. Improve data ownership and stewardship accountability
 4. Prioritise remediation for high-risk tables
 5. Introduce a **Data Trust framework** for decision-making
 
-Frameworks referenced
+# Frameworks referenced
 - DAMA-DMBOK v2 — Data Management Body of Knowledge
 - DCAM (EDM Council) — Data Capability Assessment Model
 - ISO 8000 — Data Quality (Completeness, Accuracy, Consistency, Uniqueness, Timeliness, Validity)
