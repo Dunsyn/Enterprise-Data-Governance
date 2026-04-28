@@ -1,11 +1,10 @@
 # Enterprise Data Governance — Power BI Report
 
 # **Introduction**
-This project presents an **Enterprise Data Governance Analysis Dashboard** built in Power BI to evaluate data quality, governance maturity, compliance risk, and financial exposure across a multi-domain organisation.
-The objective is to move beyond descriptive analytics and enable **data trust and governance-driven decision-making**. It analyses 5,500 fields, 6 business domains, 23 source systems,12 EU countries with €2.1 billion in regulatory exposure.
+This project presents an Enterprise Data Governance Analysis Dashboard built in Power BI to evaluate data quality, governance maturity, compliance risk, and financial exposure across a multi-domain organisation. The objective is to move beyond descriptive analytics and enable data trust and governance-driven decision-making. It analyses 5,500 fields, 6 business domains, 23 source systems,12 EU countries with €2.1 billion in regulatory exposure.
 
 # **Key Features**
-* Dynamic KPI selection using **Field Parameters**
+* Dynamic KPI selection using Field Parameters
 * Data Quality framework (Accuracy, Completeness, Consistency, Duplicate Rate)
 * Governance metrics (Audit findings, compliance status, open issues)
 * Financial risk modelling (Exposure, remediation cost, fines)
@@ -16,11 +15,8 @@ The objective is to move beyond descriptive analytics and enable **data trust an
   * Data Quality
   * Risk & Compliance
 
-# **Project Objective**: To assess how effectively data is governed across the enterprise and identify:
-* High-risk data assets
-* Governance gaps
-* Financial exposure from non-compliance
-* Areas requiring immediate remediation
+# **Project Objective** 
+To assess how effectively data is governed across the enterprise and identify high-risk data assets, Governance gaps, Financial exposure from non-compliance and Areas requiring immediate remediation.
 
 # **Data Overview**
 * ~5,500 Data records
@@ -61,7 +57,7 @@ The objective is to move beyond descriptive analytics and enable **data trust an
 2. Reduce audit lag and enforce governance cycles
 3. Improve data ownership and stewardship accountability
 4. Prioritise remediation for high-risk tables
-5. Introduce a **Data Trust framework** for decision-making
+5. Introduce a Data Trust framework for decision-making
 
 # Frameworks referenced
 - DAMA-DMBOK v2 — Data Management Body of Knowledge
