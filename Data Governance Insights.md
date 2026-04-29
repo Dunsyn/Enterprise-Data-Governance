@@ -9,7 +9,7 @@ Definitions, retention rules, masking requirements…
 When they’re missing, risk multiplies quietly.
 
 3. Ownership is cultural, not structural
-917 fields with no named owner is not a technical issue — it’s a behavioural one.
+917 fields with no named owner is not a technical issue rather a behavioural one.
 
 4. Trust is the real KPI
 If people don’t trust the data, they won’t use it.
@@ -25,7 +25,7 @@ Retention not enforced.
 Sensitive data accessible to too many people.
 Audit tells the truth.
 
-7. Governance is not documentation — it’s action
+7. Governance is not documentation but action
 The dashboard surfaced the top actions needed:
 * Monitor & maintain
 * Assign owners
