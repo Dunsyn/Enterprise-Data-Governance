@@ -1,4 +1,4 @@
-## 🔹 Overview
+## Overview
 
 This project evaluates enterprise data governance by analysing:
 - Data Quality (Accuracy, Completeness, Consistency, Duplicate Rate)
