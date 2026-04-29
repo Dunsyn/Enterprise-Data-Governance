@@ -44,7 +44,7 @@ Attributes include:
 * Applied conditional formatting and dynamic visuals
 
 # **Key Insights**
-1. The compliance crisis is structural, not tactical. At 88.8% non-compliant or at risk, this is a governance programme maturity problem — not a data quality problem. Tactical fixes will not move this number. The organisation needs foundational governance capability built from the ground up.
+1. The compliance crisis is structural, not tactical. At 88.8% non-compliant or at risk, this is a governance program maturity problem but a data quality problem. Tactical fixes will not move this number. The organisation needs foundational governance capability built from the ground up.
 2. HR is the immediate regulatory priority: HR has the highest estimated fine exposure (€491M), the most non-compliant fields (542, 56.3%), the most GDPR-relevant fields (544), and the most open issues (4,698). A regulator's first port of call.
 3. 771 fields are an Article 25 violation right before any breach. GDPR Article 25 (Data Protection by Design and Default) requires access to personal data be restricted to what is strictly necessary. 771 GDPR-relevant fields with Admin or Write access and no documented justification represent active violations independent of whether a breach has occurred.
 4. 54 Critical Data Elements have Governance Maturity = 1. The worst combination in the dataset: fields marked as critical for business decisions sitting at the lowest possible governance level. 50 of those 54 are in Marketing; Customer_Master fields including Email, Phone, Address, and Consent_Status.
@@ -59,10 +59,10 @@ Attributes include:
 5. Introduce a Data Trust framework for decision-making
 
 # Frameworks referenced
-- DAMA-DMBOK v2 — Data Management Body of Knowledge
-- DCAM (EDM Council) — Data Capability Assessment Model
-- ISO 8000 — Data Quality (Completeness, Accuracy, Consistency, Uniqueness, Timeliness, Validity)
-- EU GDPR — Articles 5 (storage limitation), 13 (transparency), 25 (privacy by design), 32 (security)
-- NIS2 Directive — cybersecurity governance
-- EU AI Act — Article 10, high-risk AI data governance
-- BCBS 239 — risk data aggregation and reporting
+* DAMA-DMBOK v2 — Data Management Body of Knowledge
+* DCAM (EDM Council) — Data Capability Assessment Model
+* ISO 8000 — Data Quality (Completeness, Accuracy, Consistency, Uniqueness, Timeliness, Validity)
+* EU GDPR — Articles 5 (storage limitation), 13 (transparency), 25 (privacy by design), 32 (security)
+* NIS2 Directive — cybersecurity governance
+* EU AI Act — Article 10, high-risk AI data governance
+* BCBS 239 — risk data aggregation and reporting
