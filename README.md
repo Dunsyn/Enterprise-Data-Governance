@@ -41,7 +41,7 @@ Attributes include:
 * Analysed audit cycles and compliance gaps
 4. **Visualisation**
 * Built executive dashboards using Power BI
-* Applied conditional formatting and dynamic visuals
+* Applied conditional formatting, Tooltips and dynamic visuals
 
 # **Key Insights**
 1. The compliance crisis is structural, not tactical. At 88.8% non-compliant or at risk, this is a governance program maturity problem but a data quality problem. Tactical fixes will not move this number. The organisation needs foundational governance capability built from the ground up.
