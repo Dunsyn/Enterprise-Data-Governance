@@ -1,10 +1,10 @@
 # DAX Table
 
 Power Query prep (minimum required transformations) - Do these in Transform data:
-•	Ensure numeric types: Completeness Percent, Accuracy Percent, Data Quality Score, Compliance Risk Score, Estimated Fine EUR, Remediation Cost EUR, Open Issues Count, Audit Findings Count, Days Since Last Audit
-•	Convert flags to consistent values (Yes/No): GDPR Relevant, Masking Required, Critical Data Element, Duplicate Flag, Consistency Flag
-•	Trim/clean text columns (owners, stewards, systems)
-•	Create helper columns: Financial Exposure EUR = Estimated Fine EUR + Remediation Cost EUR
+* Ensure numeric types: Completeness Percent, Accuracy Percent, Data Quality Score, Compliance Risk Score, Estimated Fine EUR, Remediation Cost EUR, Open Issues Count, Audit Findings Count, Days Since Last Audit
+* Convert flags to consistent values (Yes/No): GDPR Relevant, Masking Required, Critical Data Element, Duplicate Flag, Consistency Flag
+* Trim/clean text columns (owners, stewards, systems)
+* Create helper columns: Financial Exposure EUR = Estimated Fine EUR + Remediation Cost EUR
 
 # Data Overview
 
@@ -29,8 +29,6 @@ SUM(Fact_DataGovernance[Remediation Cost EUR])
 Financial Exposure EUR =
 SUM ( Fact_DataGovernance[Estimated Fine EUR] ) + SUM ( Fact_DataGovernance[Remediation Cost EUR] )
 
-
-
 # Data Quality
 
 Avg Data Quality Score =
@@ -51,7 +49,6 @@ DIVIDE(
     [Total Data Records],
     0
 )
-
 
 Flagged Quality Assets =
 CALCULATE (
@@ -75,19 +72,13 @@ DIVIDE(
     0
 )
 
-
-
-
 Avg Governance Maturity =
   AVERAGE(Fact_DataGovernance[Governance Maturity Score])
-
 
 
 # Risk and Compliance
 
 Open Issues = SUM ( Fact_DataGovernance[Open Issues Count] )
-
-
 
 High Risk Records =
 CALCULATE (
@@ -180,7 +171,6 @@ CALCULATE(
     COUNTROWS(Fact_DataGovernance),
     Fact_DataGovernance[Access Risk Flag] = "OVER-PERMISSIONED"
 )
-
 
 Governance Action =
 SWITCH(
