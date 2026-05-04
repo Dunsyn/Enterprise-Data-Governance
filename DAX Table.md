@@ -4,7 +4,7 @@ Power Query prep (minimum required transformations) - Do these in Transform data
 * Ensure numeric types: Completeness Percent, Accuracy Percent, Data Quality Score, Compliance Risk Score, Estimated Fine EUR, Remediation Cost EUR, Open Issues Count, Audit Findings Count, Days Since Last Audit
 * Convert flags to consistent values (Yes/No): GDPR Relevant, Masking Required, Critical Data Element, Duplicate Flag, Consistency Flag
 * Trim/clean text columns (owners, stewards, systems)
-* Create helper columns: Financial Exposure EUR = Estimated Fine EUR + Remediation Cost EUR
+* Create calculated columns & measures: Financial Exposure EUR = Estimated Fine EUR + Remediation Cost EUR
 
 # Data Overview
 
